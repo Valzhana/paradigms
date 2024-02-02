@@ -7,4 +7,5 @@ sum([], 0).
 sum([H|T], Sum) :-
     sum(T, Sum1),
     Sum is H + Sum1.
-    ?-sum([1, 4, 5], Sum).
+% Query
+?- sum([1, 4, 5], Sum).
